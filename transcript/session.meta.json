@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "session": {
+    "id": "33917f16-1a51-48fe-8f8c-0707b57eec76",
+    "started_at": "2026-09-14T05:16:57.948Z",
+    "ended_at": "2026-09-16T08:57:54.523Z",
+    "duration_minutes": 3100
+  },
+  "project": {
+    "name": "RDM-LLM-Logging",
+    "directory": "/home/brian/people/Shawn/RDM-LLM-Logging"
+  },
+  "model": {
+    "provider": "anthropic",
+    "model_id": "claude-fable-5-1",
+    "claude_code_version": "2.1.266",
+    "access_method": "claude-code-cli"
+  },
+  "statistics": {
+    "turns": 99,
+    "human_messages": 99,
+    "assistant_messages": 166,
+    "thinking_blocks": 65,
+    "tool_calls": {
+      "total": 73,
+      "by_type": {
+        "Skill": 4,
+        "Bash": 41,
+        "Read": 10,
+        "Write": 9,
+        "Edit": 6,
+        "WebFetch": 3
+      }
+    },
+    "tokens": {
+      "input": 0,
+      "output": 0,
+      "cache_read": 0
+    },
+    "estimated_cost_usd": 0.0
+  },
+  "artifacts": {
+    "created": [
+      {
+        "path": ".notes/feedback_local-transcription-only.md",
+        "type": "document"
+      },
+      {
+        "path": ".notes/project_workspace-state.md",
+        "type": "document"
+      },
+      {
+        "path": "roadshow-2026-09-17/BULLETS.md",
+        "type": "document"
+      },
+      {
+        "path": "roadshow-2026-09-17/DESIGN.md",
+        "type": "document"
+      },
+      {
+        "path": "roadshow-2026-09-17/NOTES.md",
+        "type": "document"
+      },
+      {
+        "path": "roadshow-2026-09-17/OUTLINE.md",
+        "type": "document"
+      },
+      {
+        "path": "roadshow-2026-09-17/slides/roadshow-2026-09-17.qmd",
+        "type": "other"
+      }
+    ],
+    "modified": [],
+    "referenced": [
+      {
+        "path": "/home/brian/people/Brian/INTS1302/.notes/feedback_plain-language.md",
+        "type": "document"
+      },
+      {
+        "path": "/home/brian/people/Brian/INTS1302/.notes/project_decisions.md",
+        "type": "document"
+      },
+      {
+        "path": "/home/brian/people/Brian/INTS1302/.notes/reference_teaching-pace.md",
+        "type": "document"
+      },
+      {
+        "path": "/home/brian/people/Brian/INTS1302/docs/register-and-writing.md",
+        "type": "document"
+      },
+      {
+        "path": "/home/brian/people/Shawn/.notes/project_workspace-state.md",
+        "type": "document"
+      },
+      {
+        "path": "/home/brian/people/Shawn/.notes/reference_register-shawn-ross.md",
+        "type": "document"
+      },
+      {
+        "path": "derived/ig-proposal/RDA_IG_Summary_and_Description.md",
+        "type": "document"
+      },
+      {
+        "path": "rda-llm-local/Meeting Transcripts and Resources/20251015 - Lunchtime Meeting/PXL_20251015_040525713.jpg",
+        "type": "image"
+      },
+      {
+        "path": "roadshow-2026-09-17/slides/_render/contact.png",
+        "type": "image"
+      }
+    ]
+  },
+  "relationships": {
+    "continues": null,
+    "references": [
+      "33917f16-1a51-48fe-8f8c-0707b57eec76"
+    ],
+    "isPartOf": [
+      "RDM-LLM-Logging"
+    ]
+  },
+  "auto_generated": {
+    "title": "Roadshow talk planning and IG workspace setup",
+    "purpose": "Plan the 17 September 2026 Roadshow talk and set up the IG workspace",
+    "tags": [
+      "rda",
+      "interest-group",
+      "roadshow",
+      "slides",
+      "three-ps"
+    ]
+  },
+  "three_ps": {
+    "prompt_summary": "Brian set up a new workspace for the RDA Documenting Generative AI Interactions in Research Interest Group, asking to mirror the group's Google Drive documentation, reuse slide tooling from a teaching repository, and plan a 15-minute talk for the ARDC and RDA Roadshow in Sydney on 17 September 2026 whose only goal is to get attendees to support the group's Statement of Work during community review.",
+    "process_summary": "Claude Code (Fable 5.1) surveyed the hand-copied Drive mirror and the teaching repository's PowerPoint harness, initialised a git repository, and transcribed the 92-minute Brisbane BoF recording with the local scribe tool after Brian stopped an attempt to use whisperx with a Hugging Face token. It converted the submitted proposal and prior decks to Markdown, then built the talk breadth-first under Brian's rulings: a design brief, a ten-event outline that Brian cut to five, on-screen wording redrafted against the workspace prose register after Brian rejected the first draft as trite, presenter notes drawn from Brian's own Brisbane phrasing, and a Quarto build to PowerPoint that Brian emailed to the organisers. Two project notes were written with Brian's approval. The 1-of-137 figure was verified against its JAMA Network Open source, and the QR code against the live page.",
+    "provenance_summary": "Brian ruled every content decision: the five-slide shape, all visible wording, the exclusion of decorative imagery, and the choice of local transcription. Claude drafted, checked sources, and built. Inputs were Brian's own BoF deck and recording, the proposal's Statement of Work, two forwarded emails from the RDA Secretariat and Shawn Ross, and the Eventbrite listing. The session log contains third parties' contact details and one credential from Brian's shell history, and is scrubbed before publication."
+  },
+  "plan_files": [
+    "swirling-kindling-pony.md",
+    "polymorphic-shimmying-balloon.md",
+    "atomic-kindling-pudding.md",
+    "soft-cuddling-stream.md"
+  ],
+  "archive": {
+    "archived_at": "2026-09-16T18:57:55.085533",
+    "directory_name": "2026-09-16-roadshow-talk-planning-and-ig-workspace-setup",
+    "jsonl_path": "raw-transcript.jsonl",
+    "jsonl_sha256": "a6beb4a652635b8788e9523e8cf1d643c6615aa321310f34d01d9562341f01ff",
+    "jsonl_bytes": 2482326,
+    "needs_review": false,
+    "trivial": false
+  },
+  "_relationship_hints": {
+    "continues_hint": null,
+    "references_hints": [
+      "33917f16-1a51-48fe-8f8c-0707b57eec76"
+    ],
+    "detection_notes": [
+      "Found session ID reference: 33917f16-1a51-48fe-8f8c-0707b57eec76"
+    ]
+  }
+}
